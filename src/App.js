@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Colors from './day01/state/Colors';
+
+import CheckMessage from './day02/ref/expert/CheckMessage';
+
 function App() {
   return (
     <>
       {/* <Container /> */}
-      <Colors />
+      <CheckMessage />
     </>
   )
 }
 
-export default App;
+export default CheckMessage;
