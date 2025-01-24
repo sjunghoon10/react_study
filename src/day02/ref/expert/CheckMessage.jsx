@@ -10,6 +10,7 @@ const CheckMessage = () => {
   const onClickToCheck = (e) => {
     let value = e.target.value;
     if(e.target.checked){
+      // setMessage(message.concat(value))
       setMessage([...message, value])
     }else{
       setMessage(message.filter((m) => m !== value))

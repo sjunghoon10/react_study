@@ -1,5 +1,3 @@
-c
-
 const Name = () => {
     const [name, setName] = useState("")
 

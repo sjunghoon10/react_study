@@ -13,6 +13,7 @@ const Check = () => {
     }
     setResult(hobby)
   }
+
   return (
     <div>
       <p>{result}</p>

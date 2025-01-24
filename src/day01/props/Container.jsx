@@ -34,7 +34,7 @@ const Container = () => {
       </Component02> */}
 
       {/* <Component03 containerStyle={containerStyle} boxStyle={boxStyle}/> */}
-      <Component04 printName={printName}/>
+      <Component04 name="홍길동" printName={printName} />
     </div>
   );
 };

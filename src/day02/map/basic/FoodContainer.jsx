@@ -31,7 +31,7 @@ const FoodContainer = () => {
   // 판매음식 : 돈까스
   // 가격 : 15000원
   // 원산지 : 국내산, 호주산
-  const foods = foodList.map((food, i) => <Food key={i} food={food} /> )
+  const foods = foodList.map((food, i) => <Food key={i} food={food}/> )
 
   return (
     <div>
