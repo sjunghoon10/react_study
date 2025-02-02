@@ -29,7 +29,6 @@ const ExpertFood = () => {
 
 
   const foodList = foods.map(({kor, eng}, i) => {
-    
     return (
       <li key={i}>
         <input type="checkbox"

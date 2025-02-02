@@ -12,7 +12,7 @@ const Count = () => {
   return (
     <div>
       <button onClick={onClickToDecrease}>-</button>
-      {number}
+        {number}
       <button onClick={onClickToIncrease}>+</button>
     </div>
   );

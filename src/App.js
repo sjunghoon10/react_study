@@ -1,19 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
-import CheckMessage from './day02/ref/expert/CheckMessage';
-import LifeCycleContainer from './day03/life-cycle/class/LifeCycleContainer';
-import SideEffect from './day03/life-cycle/function/side-effect/SideEffect';
 import SideEffectTask01 from './day03/life-cycle/function/side-effect/SideEffectTask01';
+import ProductContainer from './day04/life-cycle/function/side-effect/memoization/ProductContainer';
+import Container from './day01/props/Container';
 
 function App() {
   return (
     <>
-      {/* <Container /> */}
+      {<Container />}
       {/* <LifeCycleContainer /> */}
-      <SideEffectTask01 />
+      {/* <Count /> */}
+      {/* <SideEffectMount /> */}
+      {/* <SideEffect /> */}
+      {/* <SideEffectTask01 /> */}
+      {/* <ProductContainer /> */}
     </>
-  )
+  );
 }
 
-export default SideEffectTask01;
+export default App;

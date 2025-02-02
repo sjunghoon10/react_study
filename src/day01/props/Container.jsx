@@ -1,8 +1,7 @@
 import React from 'react';
-import Component03 from './Component03';
-import Component04 from './Component04';
-
-// import Component01 from './Component01';
+// import Component03 from './Component03';
+// import Component04 from './Component04';
+import Component01 from './Component01';
 // import Component02 from './Component02';
 
 // box 3개를 만들고 가로로 배치하기
@@ -10,31 +9,33 @@ import Component04 from './Component04';
 // 모든 변수는 컨테이너에서 선언한다.
 
 const Container = () => {
-
+  
+  // const containerStyle = {
+  //   display : "flex",
+  //   gap : "4px"
+  // }
+  
+  // const boxStyle = {
+  //   width : "100px",
+  //   height : "100px",
+  //   backgroundColor : "orange"
+  // }
+  
   const name = "홍길동";
-  const printName = (name) => {
-    console.log(name);
-  }
-  const containerStyle = {
-    display : "flex",
-    gap : "4px"
+  const printValue = (value) => {
+    console.log(value)
   }
 
-  const boxStyle = {
-    width : "100px",
-    height : "100px",
-    backgroundColor : "orange"
-  }
 
   return (
     <div>
-      {/* <Component01 name={name} />
-      <Component02>
-        <span style={{ backgroundColor : "blue" }} >안녕하세요!! 😎</span>
-      </Component02> */}
+      {<Component01 name={name} />}
+       {/* <Component02>
+         <span style={{ backgroundColor : "blue" }} >안녕하세요!! 😎</span>
 
-      {/* <Component03 containerStyle={containerStyle} boxStyle={boxStyle}/> */}
-      <Component04 name="홍길동" printName={printName} />
+       </Component02> */}
+      {/* <Component03 containerStyle={containerStyle} boxStyle={boxStyle} /> */}
+      {/* <Component04 name={name} printValue={printValue} /> */}
     </div>
   );
 };
