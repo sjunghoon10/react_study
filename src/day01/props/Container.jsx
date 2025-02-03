@@ -1,7 +1,7 @@
 import React from 'react';
-// import Component03 from './Component03';
-// import Component04 from './Component04';
-import Component01 from './Component01';
+import Component03 from './Component03';
+import Component04 from './Component04';
+// import Component01 from './Component01';
 // import Component02 from './Component02';
 
 // box 3개를 만들고 가로로 배치하기
@@ -29,13 +29,13 @@ const Container = () => {
 
   return (
     <div>
-      {<Component01 name={name} />}
-       {/* <Component02>
-         <span style={{ backgroundColor : "blue" }} >안녕하세요!! 😎</span>
+      {/* <Component01 name={name} />
+      <Component02>
+        <span style={{ backgroundColor : "blue" }} >안녕하세요!! 😎</span>
 
-       </Component02> */}
+      </Component02> */}
       {/* <Component03 containerStyle={containerStyle} boxStyle={boxStyle} /> */}
-      {/* <Component04 name={name} printValue={printValue} /> */}
+      <Component04 name={name} printValue={printValue} />
     </div>
   );
 };
